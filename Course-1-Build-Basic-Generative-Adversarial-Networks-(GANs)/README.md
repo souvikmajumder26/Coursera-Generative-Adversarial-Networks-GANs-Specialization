@@ -11,12 +11,26 @@ Course 1 of Coursera Specialization offered by DeepLearning.AI: Generative Adver
 
 Output function based outlook:
 
-Discriminative Models - Classification models that predict the class (Y) based on features (X).
-
-Generative Models - Predict features (Y) based on class (X) and random input noise (E).
+> **Discriminative Models** - Classification models that predict the class (Y) based on features (X).
+> 
+> **Generative Models** - Predict features (Y) based on class (X) and random input noise (E).
+> 
 > ![image](https://user-images.githubusercontent.com/86871718/173869967-34894139-d0f3-4cdb-a929-c0b358e31d09.png)
 > ![image](https://user-images.githubusercontent.com/86871718/173870105-d764dc6d-1d6f-4ead-be01-1ec2837e8c5e.png)
 
+Two types of Generative Models: Variational Autoencoders (VAE) and Generative Adversarial Networks (GAN)
+
+> **Variational Autoencoder** - 'Autoencoder' means the encoder (a neural network) is shown the image that places it at a particular point in a latent space, which point is then fed into the decoder which will try to reconstruct the input image. The closer the reconstructed image is to the input image, the better the model is.
+This is the training part. Thereafter, only the decoder part is used to generate images based on data that are palced at particular points in the latent space.
+'Variational' means the error/noise that is fed into the decoder to generate new images everytime.
+> 
+> ![image](https://user-images.githubusercontent.com/86871718/173877215-708af601-7daf-4256-a6f0-91bfd8485f5a.png)
+>
+> **Variational Autoencoder** - 'Autoencoder' means the encoder (a neural network) is shown the image that places it at a particular point in a latent space, which point is then fed into the decoder which will try to reconstruct the input image. The closer the reconstructed image is to the input image, the better the model is.
+This is the training part. Thereafter, only the decoder part is used to generate images based on data that are palced at particular points in the latent space.
+'Variational' means the error/noise that is fed into the decoder to generate new images everytime.
+>
+> ![image](https://user-images.githubusercontent.com/86871718/173877215-708af601-7daf-4256-a6f0-91bfd8485f5a.png)
 
 
 ### <a href="https://github.com/souvikmajumder26/DeepLearning-AI-TensorFlow-Developer-Professional-Certificate/blob/main/Course-3-Natural-Language-Processing-in-TensorFlow/c3_week1_lab_1_2_tokenizer_basics.ipynb">File: c3_week1_lab_1_2_tokenizer_basics.ipynb ---</a>
