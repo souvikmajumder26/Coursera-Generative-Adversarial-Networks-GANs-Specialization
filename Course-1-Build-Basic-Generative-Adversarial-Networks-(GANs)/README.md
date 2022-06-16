@@ -9,6 +9,9 @@ Course 1 of Coursera Specialization offered by DeepLearning.AI: Generative Adver
 
 ## Week-1
 
+**Course 1 Week 1 Slides by <a href="https://community.deeplearning.ai/t/gans-course-1-lecture-notes/52326">DeepLearning.AI</a>: 
+[C1_W1.pdf](https://github.com/souvikmajumder26/Generative-Adversarial-Networks-GANs-Specialization/files/8923384/C1_W1.pdf)**
+
 Output function based outlook:
 
 > **Discriminative Models** - Classification models that predict the class (Y) based on features (X).
