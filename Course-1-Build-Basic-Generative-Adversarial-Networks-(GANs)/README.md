@@ -23,17 +23,15 @@ Output function based outlook:
 
 Two types of Generative Models: Variational Autoencoders (VAE) and Generative Adversarial Networks (GAN)
 
-> **Variational Autoencoder** - 'Autoencoder' means the encoder (a neural network) is shown the image that places it at a particular point in a latent space, which point is then fed into the decoder which will try to reconstruct the input image. The closer the reconstructed image is to the input image, the better the model is.
-This is the training part. Thereafter, only the decoder part is used to generate images based on data that are palced at particular points in the latent space.
-'Variational' means the error/noise that is fed into the decoder to generate new images everytime.
+> **Variational Autoencoder** - **'Autoencoder'** means the **encoder** (a neural network) is shown the image that places it at a particular point in a latent space, which point is then fed into the **decoder** which will try to reconstruct the input image. The closer the reconstructed image is to the input image, the better the model is.
+This is the training part. Thereafter, only the **decoder** part is used to generate images based on data that are palced at particular points in the latent space.
+**'Variational'** means the error/noise that is fed into the decoder to **generate new images everytime**.
 > 
 > ![image](https://user-images.githubusercontent.com/86871718/173877215-708af601-7daf-4256-a6f0-91bfd8485f5a.png)
 >
-> **Variational Autoencoder** - 'Autoencoder' means the encoder (a neural network) is shown the image that places it at a particular point in a latent space, which point is then fed into the decoder which will try to reconstruct the input image. The closer the reconstructed image is to the input image, the better the model is.
-This is the training part. Thereafter, only the decoder part is used to generate images based on data that are palced at particular points in the latent space.
-'Variational' means the error/noise that is fed into the decoder to generate new images everytime.
+> **Generative Adversarial Networks** - Consists of **'Generator'** and **'Dsicriminator'**. The Generator (comparable to decoder of VAE) generates new fakes images seeing the real images from dataset, simultaneously the Discriminator tries to classify between real (in dataset) and fake (generated) images. These two components kind of fight with each other where the Generator wins if it is able to generate a fake image that is classified as real by the Discriminator, thus it is called **'Adversarial'**. Thereafter, only the trained Generator is used to continue to generate **fake realistic images** when fed with noise.
 >
-> ![image](https://user-images.githubusercontent.com/86871718/173877215-708af601-7daf-4256-a6f0-91bfd8485f5a.png)
+> ![image](https://user-images.githubusercontent.com/86871718/174194682-ffa41936-7609-4ee5-8746-08e553fd2cd4.png)
 
 
 ### <a href="https://github.com/souvikmajumder26/DeepLearning-AI-TensorFlow-Developer-Professional-Certificate/blob/main/Course-3-Natural-Language-Processing-in-TensorFlow/c3_week1_lab_1_2_tokenizer_basics.ipynb">File: c3_week1_lab_1_2_tokenizer_basics.ipynb ---</a>
